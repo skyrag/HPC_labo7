@@ -1,4 +1,4 @@
-# Install script for directory: /home/skyrag3/Documents/heig/HPC/labo7/codeDeBase
+# Install script for directory: /home/skyrag3/Documents/heig/HPC/HPC_labo7/labo7/codeDeBase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/skyrag3/Documents/heig/HPC/labo7/codeDeBase/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/skyrag3/Documents/heig/HPC/HPC_labo7/labo7/codeDeBase/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

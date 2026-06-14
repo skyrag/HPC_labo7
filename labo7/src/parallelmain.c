@@ -101,7 +101,7 @@ static void hash_increment(HashTable *t, const char *ptr) {
 }
 
 int main(int argc, char **argv) {
-    if (argc != 3) {
+    if (argc < 3) {
         fprintf(stderr, "Usage: %s <input_file> <k>\n", argv[0]);
         return EXIT_FAILURE;
     }
@@ -124,7 +124,7 @@ int main(int argc, char **argv) {
     if (nread != (size_t)file_size) file_size = (long)nread;
     fclose(file);
 
-    size_t    nbuckets = 1u << 16;   
+    size_t nbuckets = 1u << 16;   
     HashTable *table   = hash_create(k, nbuckets);
 
     long nmers = file_size - k;      
