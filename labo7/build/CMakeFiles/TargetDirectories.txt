@@ -1,0 +1,4 @@
+/home/skyrag3/Documents/heig/HPC/labo7/build/CMakeFiles/k-mer.dir
+/home/skyrag3/Documents/heig/HPC/labo7/build/CMakeFiles/k-mer-parallel.dir
+/home/skyrag3/Documents/heig/HPC/labo7/build/CMakeFiles/edit_cache.dir
+/home/skyrag3/Documents/heig/HPC/labo7/build/CMakeFiles/rebuild_cache.dir

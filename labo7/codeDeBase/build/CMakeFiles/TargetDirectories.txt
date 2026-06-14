@@ -1,0 +1,3 @@
+/home/skyrag3/Documents/heig/HPC/labo7/codeDeBase/build/CMakeFiles/k-mer.dir
+/home/skyrag3/Documents/heig/HPC/labo7/codeDeBase/build/CMakeFiles/edit_cache.dir
+/home/skyrag3/Documents/heig/HPC/labo7/codeDeBase/build/CMakeFiles/rebuild_cache.dir
