@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/ecg_dealination.dir/src/main.c.o CMakeFiles/ecg_dealination.dir/src/ecg_processing.c.o CMakeFiles/ecg_dealination.dir/src/csv_reader.c.o CMakeFiles/ecg_dealination.dir/src/json_writer.c.o CMakeFiles/ecg_dealination.dir/src/ecg_utils.c.o -o ecg_dealination  -lm 
