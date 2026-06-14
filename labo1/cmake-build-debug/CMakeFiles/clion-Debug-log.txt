@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/skyrag/HPC/labo1 -B /home/skyrag/HPC/labo1/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/skyrag/HPC/labo1/cmake-build-debug
