@@ -91,9 +91,6 @@ int main(int argc, char *argv[])
 
     clock_t start = clock();
 
-    ECG_Timing total_timing;
-    memset(&total_timing, 0, sizeof(total_timing));
-
     const size_t packet_size = PACKET_SIZE;
     const size_t overlap_size = OVERLAP_SIZE;
     const size_t stride = packet_size - overlap_size;
@@ -115,7 +112,6 @@ int main(int argc, char *argv[])
     PacketResult *results = calloc(num_packets, sizeof(PacketResult));
     if (!results) { /* erreur */ return 8; }
 
-    clock_t start = clock();
     ECG_Timing total_timing;
     memset(&total_timing, 0, sizeof(total_timing));
 
